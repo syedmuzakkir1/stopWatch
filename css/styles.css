@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling  */
+
+body{
+
+ 
+
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+/* Top most  Heading  */
+
+.heading{
+
+    color: rgb(5, 5, 5);
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 1rem;
+    
+    
+}
+
+
+
+/* Timer section starts here  */
+.center{
+
+    width: 50%;
+
+    padding: 5rem;
+    
+    text-align: center;
+
+   background-color: rgb(29, 38, 46);  
+   border-radius: 50%;
+   color: white;
+   margin: 0 auto;
+   margin-top: 3rem;
+   font-size: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   box-shadow: 1px 0px 230px rgb(13, 49, 228);
+
+
+}
+
+h2{
+
+    font-size: 4rem;
+}
+ button{
+  
+    background-color: aliceblue;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid green;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: darkblue;
+    margin: .3rem;
+
+
+     
+     
+}
+
+button:hover{
+
+    transform: scale(1.02);
+    border: 1px solid red;
+    color: white;
+    background-color: rgb(48, 55, 60);
+}
+
+
+
+
+/* Responsive for all devices  */
+
+
+@media (max-width:768px) {
+     
+    button{
+        padding: 1vw 2vw;
+    font-size: 4vw;
+
+    }
+    .center{
+        /* border-radius: ; */
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    h2{
+
+        font-size: 8vw;
+    }
+    .heading{
+        font-size: 7vw;
+    }
+
+     
+}

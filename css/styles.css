@@ -82,6 +82,7 @@ button:hover{
     border: 1px solid red;
     color: white;
     background-color: rgb(48, 55, 60);
+    transition: ease;
 }
 
 

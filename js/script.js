@@ -12,8 +12,8 @@ let reset = document.querySelector('.reset')
 // console.log(stopbtn)
 
 
-let [hours,minutes,seconds]= [0,0,0]
 
+let [hours,minutes,seconds]= [0,0,0]
 
 function startTimer(){
  
@@ -73,7 +73,10 @@ function Resetvalue(){
   
     clearInterval(timer)
 
-let     [hours,minutes,seconds]=[0,0,0]
+    startTimer()
+
+    hours = minutes = seconds = 0;
+// let     [hours,minutes,seconds]=[0,0,0]
 
     time.innerHTML = '00:00:00'
 
